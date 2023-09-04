@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72a15d9-1cd4-4d09-91e6-1fdf61d51de4" name="Changes" comment="HomeWork">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d72a15d9-1cd4-4d09-91e6-1fdf61d51de4" name="Changes" comment="HW" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +22,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -67,6 +71,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;LoginTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTests.loginNegativeTestWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;LoginTests.loginNegativeTestWrongEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,6 +156,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.LoginTests.loginPositiveTest" />
+        <item itemvalue="Gradle.LoginTests.loginNegativeTestWrongEmail" />
         <item itemvalue="Gradle.LoginTests" />
         <item itemvalue="Gradle.loginTests.loginPositiveTest" />
       </list>
@@ -142,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693806234044</updated>
       <workItem from="1693806235462" duration="14936000" />
-      <workItem from="1693826337564" duration="330000" />
+      <workItem from="1693826337564" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="HomeWork11">
       <option name="closed" value="true" />
@@ -168,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693825826339</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW">
+      <option name="closed" value="true" />
+      <created>1693826803560</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693826803560</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HW">
+      <option name="closed" value="true" />
+      <created>1693826983167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693826983167</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +233,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HomeWork11" />
     <MESSAGE value="HomeWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork" />
+    <MESSAGE value="HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW" />
   </component>
 </project>
