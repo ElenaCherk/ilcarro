@@ -25,8 +25,5 @@ public class LoginTests extends TestsBase{
         pause(1000);
         logout();
         tearDown();
-
-
-
     }
 }
