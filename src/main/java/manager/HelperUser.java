@@ -41,7 +41,7 @@ public interface HelperUser extends HelperBase{
          // variant 3
         Rectangle rect = wd.findElement(By.cssSelector("label[for = 'terms-of-use']")).getRect();
         int x = rect.getX()+rect.getWidth()/20;
-        int y = rect.getY()+rect.getWidth()/4;
+        int y = rect.getY()+rect.getHeight()/4;
         Actions actions = new Actions(wd);
         actions.moveByOffset(x,y).click().perform();
     }
