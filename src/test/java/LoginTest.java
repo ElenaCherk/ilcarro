@@ -1,4 +1,6 @@
 import models.User;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -29,6 +31,7 @@ public class LoginTest extends TestBase {
             fillLoginForm(user.getEmail(), user.getPassword()); // получаем данные через геттеры
             submitLogin();
             Assert.assertTrue(isLoggedSuccess());
+
     }
 
     @AfterMethod

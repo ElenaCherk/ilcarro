@@ -1,13 +1,27 @@
+import lombok.extern.slf4j.Slf4j;
 import manager.HelperCar;
 import manager.HelperUser;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import java.lang.reflect.Method;
+
+@Slf4j
 public class TestBase implements HelperUser, HelperCar {
 
     WebDriver wd;
 
+    @BeforeMethod
+    public void startTest(Method method){
+        log.info("Started test ---->" + method.getName());
+    }
+    @AfterMethod
+    public void stopTest(Method method){
+        log.info("Finished test ---->" + method.getName());
+    }
     @BeforeSuite
 //    public void init() {
 //        wd = new ChromeDriver();
@@ -15,11 +29,12 @@ public class TestBase implements HelperUser, HelperCar {
 //        wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 //    }
     public void setup(){
+
         init();
     }
     @AfterSuite
     public void stop() {
-        pause(5000);
+    //    pause(3000);
         tearDown();
     }
 //    public void tearDown() {

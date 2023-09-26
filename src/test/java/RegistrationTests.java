@@ -1,9 +1,14 @@
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
-
+// @BeforeMethod
+// public void precondition(){
+//  refresh();
+//  if(isLogged()) logout();
+//}
     @Test
     public void registrationPositive(){
         int i = (int)(System.currentTimeMillis()/1000%3600);
@@ -12,7 +17,6 @@ public class RegistrationTests extends TestBase {
                 "Black",
                 "jb_" + i + "@mail.com",
                 "$asDf1234");
-
         openRegistrationForm();
         fillRegistrationForm(user);
         submitRegistration();
