@@ -28,9 +28,7 @@ public class AddNewCarTests extends TestBase{
                 .price("235")
                 .about("Very good car")
                 .build();
-
         openCarForm();
         fillCarForm(car);
-
     }
 }

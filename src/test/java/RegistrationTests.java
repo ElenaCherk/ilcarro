@@ -4,11 +4,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
-// @BeforeMethod
-// public void precondition(){
-//  refresh();
-//  if(isLogged()) logout();
-//}
+    @BeforeMethod
+    public void precondition(){
+        refresh();
+        if(isLogged()) logout();
+    }
     @Test
     public void registrationPositive(){
         int i = (int)(System.currentTimeMillis()/1000%3600);

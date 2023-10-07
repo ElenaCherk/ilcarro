@@ -11,16 +11,16 @@ import java.lang.reflect.Method;
 
 @Slf4j
 public class TestBase implements HelperUser, HelperCar {
-
     WebDriver wd;
-
     @BeforeMethod
     public void startTest(Method method){
         log.info("Started test ---->" + method.getName());
     }
     @AfterMethod
     public void stopTest(Method method){
+
         log.info("Finished test ---->" + method.getName());
+        log.info("=================================================================");
     }
     @BeforeSuite
 //    public void init() {
@@ -29,7 +29,6 @@ public class TestBase implements HelperUser, HelperCar {
 //        wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 //    }
     public void setup(){
-
         init();
     }
     @AfterSuite

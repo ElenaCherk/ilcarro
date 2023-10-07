@@ -1,11 +1,12 @@
 package manager;
+
 import models.User;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.interactions.Actions;
 
 public interface HelperUser extends HelperBase{
+    By textRegistration = By.xpath("//h1");
     default void openLoginForm(){
         click(By.xpath("//*[.=' Log in ']"));
     }
@@ -26,11 +27,12 @@ public interface HelperUser extends HelperBase{
         type(By.id("email"), user.getEmail());
         type(By.id("password"), user.getPassword());
         clickCheckbox();
+        clickBth(textRegistration);
     }
 
     default void clickCheckbox(){
         // variant 1
-        //click(By.cssSelector("label[for = 'terms-of-use']")); // кликни на элемент "label" у которого есть элемент
+        click(By.cssSelector("label[for = 'terms-of-use']")); // кликни на элемент "label" у которого есть элемент
                                                         // который называется for, значение которого 'terms-of-use'
         // variant 2
         //JavascriptExecutor js = (JavascriptExecutor)wd;  // как бы подключили интерфейс Javascript к нашему объекту вэбдрайвера
@@ -39,11 +41,11 @@ public interface HelperUser extends HelperBase{
         //js.executeScript("document.querySelector('#terms-of-use').click();");
 
          // variant 3
-        Rectangle rect = wd.findElement(By.cssSelector("label[for = 'terms-of-use']")).getRect();
-        int x = rect.getX()+rect.getWidth()/20;
-        int y = rect.getY()+rect.getHeight()/4;
-        Actions actions = new Actions(wd);
-        actions.moveByOffset(x,y).click().perform();
+//        Rectangle rect = wd.findElement(By.cssSelector("label[for = 'terms-of-use']")).getRect();
+//        int x = rect.getX()+rect.getWidth()/20;
+//        int y = rect.getY()+rect.getHeight()/4;
+//        Actions actions = new Actions(wd);
+//        actions.moveByOffset(x,y).click().perform();
     }
 
     default void submitLogin(){
@@ -96,5 +98,7 @@ public interface HelperUser extends HelperBase{
     default void clickOkButton(){
             click(By.xpath("//button[@type='button']"));
         }
+    default void clickBth(By locator){
+        wd.findElement(locator).click();    }
 }
 
