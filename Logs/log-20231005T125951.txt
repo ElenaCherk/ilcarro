@@ -1,0 +1,47 @@
+2023-10-05 13:00:05,488 INFO m.ApplicationManager [ApplicationManager.java:18] Navigated to the link --->https://ilcarro.web.app/search
+2023-10-05 13:00:05,520 INFO TestBase [TestBase.java:19] Started test ---->loginPositiveTest
+2023-10-05 13:00:05,524 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.=' Logout ']
+2023-10-05 13:00:08,563 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.=' Logout ']is found
+2023-10-05 13:00:08,567 INFO m.ApplicationManager [LoginTest.java:16] Login Positive Test starts with "lenny_ch@mail.com" & "123Ttt45$" 
+2023-10-05 13:00:08,568 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: /*[.=' Log in ']
+2023-10-05 13:00:11,676 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-05 13:00:11,677 INFO m.WDListener [WDListener.java:33] no such element: Unable to locate element: {"method":"xpath","selector":"/*[.=' Log in ']"}
+  (Session info: chrome=117.0.5938.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2ed769768cab4db991c56ade39463c
+*** Element info: {Using=xpath, value=/*[.=' Log in ']}
+2023-10-05 13:00:11,677 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/*[.=' Log in ']"}
+  (Session info: chrome=117.0.5938.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2ed769768cab4db991c56ade39463c
+*** Element info: {Using=xpath, value=/*[.=' Log in ']}
+2023-10-05 13:00:12,334 INFO m.WDListener [WDListener.java:38] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-11.png
+2023-10-05 13:00:12,344 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[@type='button']
+2023-10-05 13:00:15,389 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-05 13:00:15,391 INFO m.WDListener [WDListener.java:33] no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=117.0.5938.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2ed769768cab4db991c56ade39463c
+*** Element info: {Using=xpath, value=//button[@type='button']}
+2023-10-05 13:00:15,392 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=117.0.5938.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2ed769768cab4db991c56ade39463c
+*** Element info: {Using=xpath, value=//button[@type='button']}
+2023-10-05 13:00:15,992 INFO m.WDListener [WDListener.java:38] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-15.png

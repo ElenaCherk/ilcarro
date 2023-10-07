@@ -1,0 +1,25 @@
+2023-10-05 15:26:23,312 INFO m.ApplicationManager [ApplicationManager.java:18] Navigated to the link --->https://ilcarro.web.app/search
+2023-10-05 15:26:23,345 INFO TestBase [TestBase.java:17] Started test ---->registrationPositive
+2023-10-05 15:26:23,347 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: /*[.=' Sign up ']
+2023-10-05 15:26:26,445 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-05 15:26:26,447 INFO m.WDListener [WDListener.java:33] no such element: Unable to locate element: {"method":"xpath","selector":"/*[.=' Sign up ']"}
+  (Session info: chrome=117.0.5938.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6eb05d05df7f85bd656b3893f2a650bf
+*** Element info: {Using=xpath, value=/*[.=' Sign up ']}
+2023-10-05 15:26:26,448 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/*[.=' Sign up ']"}
+  (Session info: chrome=117.0.5938.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6eb05d05df7f85bd656b3893f2a650bf
+*** Element info: {Using=xpath, value=/*[.=' Sign up ']}
+2023-10-05 15:26:27,439 INFO m.WDListener [WDListener.java:38] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-1586.png
+2023-10-05 15:26:27,449 INFO TestBase [TestBase.java:22] Finished test ---->registrationPositive
+2023-10-05 15:26:27,450 INFO TestBase [TestBase.java:23] =================================================================

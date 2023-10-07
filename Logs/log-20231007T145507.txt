@@ -1,0 +1,20 @@
+2023-10-07 14:55:20,976 INFO m.ApplicationManager [ApplicationManager.java:18] Navigated to the link --->https://ilcarro.web.app/search
+2023-10-07 14:55:21,015 INFO TestBase [TestBase.java:17] Started test ---->registrationPositive
+2023-10-07 14:55:21,017 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.=' Sign up ']
+2023-10-07 14:55:21,149 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.=' Sign up ']is found
+2023-10-07 14:55:23,356 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: name
+2023-10-07 14:55:24,008 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: nameis found
+2023-10-07 14:55:25,555 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: lastName
+2023-10-07 14:55:25,568 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: lastNameis found
+2023-10-07 14:55:26,162 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: email
+2023-10-07 14:55:26,175 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: emailis found
+2023-10-07 14:55:26,664 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: password
+2023-10-07 14:55:26,675 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: passwordis found
+2023-10-07 14:55:27,115 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: label[for = 'terms-of-use']
+2023-10-07 14:55:27,204 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: label[for = 'terms-of-use']is found
+2023-10-07 14:55:27,989 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[@type = 'submit']
+2023-10-07 14:55:28,134 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[@type = 'submit']is found
+2023-10-07 14:55:29,258 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //h2[contains(text(),'success')]
+2023-10-07 14:55:30,451 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //h2[contains(text(),'success')]is found
+2023-10-07 14:55:30,455 INFO TestBase [TestBase.java:22] Finished test ---->registrationPositive
+2023-10-07 14:55:30,456 INFO TestBase [TestBase.java:23] =================================================================

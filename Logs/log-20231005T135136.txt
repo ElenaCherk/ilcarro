@@ -1,0 +1,19 @@
+2023-10-05 13:51:50,176 INFO m.ApplicationManager [ApplicationManager.java:18] Navigated to the link --->https://ilcarro.web.app/search
+2023-10-05 13:51:50,215 INFO TestBase [TestBase.java:17] Started test ---->loginPositiveTest
+2023-10-05 13:51:50,217 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.=' Logout ']
+2023-10-05 13:51:53,315 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.=' Logout ']is found
+2023-10-05 13:51:53,318 INFO m.ApplicationManager [LoginTest.java:16] Login Positive Test starts with "lenny_ch@mail.com" & "123Ttt45$" 
+2023-10-05 13:51:53,318 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.=' Log in ']
+2023-10-05 13:51:53,344 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.=' Log in ']is found
+2023-10-05 13:51:55,287 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: email
+2023-10-05 13:51:55,731 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: emailis found
+2023-10-05 13:51:57,708 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: password
+2023-10-05 13:51:57,721 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: passwordis found
+2023-10-05 13:51:58,228 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[@type = 'submit']
+2023-10-05 13:51:58,268 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[@type = 'submit']is found
+2023-10-05 13:51:58,867 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //h2[contains(text(),'success')]
+2023-10-05 13:52:00,875 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //h2[contains(text(),'success')]is found
+2023-10-05 13:52:00,880 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[@type='button']
+2023-10-05 13:52:00,904 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[@type='button']is found
+2023-10-05 13:52:01,227 INFO TestBase [TestBase.java:22] Finished test ---->loginPositiveTest
+2023-10-05 13:52:01,228 INFO TestBase [TestBase.java:23] =================================================================

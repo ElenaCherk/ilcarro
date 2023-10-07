@@ -1,0 +1,23 @@
+2023-10-07 15:23:25,613 INFO m.ApplicationManager [ApplicationManager.java:18] Navigated to the link --->https://ilcarro.web.app/search
+2023-10-07 15:23:25,649 INFO TestBase [TestBase.java:17] Started test ---->registrationNegativeLastNameBlank
+2023-10-07 15:23:27,450 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.=' Logout ']
+2023-10-07 15:23:30,671 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.=' Logout ']is found
+2023-10-07 15:23:30,673 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.=' Sign up ']
+2023-10-07 15:23:30,859 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.=' Sign up ']is found
+2023-10-07 15:23:32,743 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: name
+2023-10-07 15:23:33,199 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: nameis found
+2023-10-07 15:23:34,696 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: lastName
+2023-10-07 15:23:34,707 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: lastNameis found
+2023-10-07 15:23:35,073 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: email
+2023-10-07 15:23:35,085 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: emailis found
+2023-10-07 15:23:35,747 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.id: password
+2023-10-07 15:23:35,763 INFO m.WDListener [WDListener.java:26] Element with locator -->By.id: passwordis found
+2023-10-07 15:23:36,399 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: label[for = 'terms-of-use']
+2023-10-07 15:23:36,426 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: label[for = 'terms-of-use']is found
+2023-10-07 15:23:36,950 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //h1
+2023-10-07 15:23:37,043 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //h1is found
+2023-10-07 15:23:37,171 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //div[contains(text(),' Last name is required ')]
+2023-10-07 15:23:37,248 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //div[contains(text(),' Last name is required ')]is found
+2023-10-07 15:23:37,260 INFO TestBase [TestBase.java:22] Finished test ---->registrationNegativeLastNameBlank
+2023-10-07 15:23:37,260 INFO TestBase [TestBase.java:23] =================================================================
+2023-10-07 15:23:40,366 INFO TestBase [TestBase.java:17] Started test ---->registrationNegativeNameBlank

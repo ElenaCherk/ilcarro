@@ -1,0 +1,4 @@
+2023-09-26 21:52:51,688 INFO m.ApplicationManager [ApplicationManager.java:16] Navigated to the link --->https://ilcarro.web.app/search
+2023-09-26 21:52:51,723 INFO TestBase [TestBase.java:19] Started test ---->registrationNegativeLastNameBlank
+2023-09-26 21:53:01,126 INFO TestBase [TestBase.java:23] Finished test ---->registrationNegativeLastNameBlank
+2023-09-26 21:53:04,242 INFO TestBase [TestBase.java:19] Started test ---->registrationNegativeNameBlank
