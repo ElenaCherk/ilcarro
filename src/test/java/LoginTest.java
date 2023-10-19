@@ -36,6 +36,13 @@ public class LoginTest extends TestBase {
             Assert.assertTrue(isLoggedSuccess());
 
     }
+    @Test
+    public void loginPositiveTestProps() {
+        openLoginForm();
+        fillLoginForm(getEmail(), getPassword());
+        submitLogin();
+        Assert.assertTrue(isLoggedSuccess());
+    }
 
     @AfterMethod
     public void postcondition(){
