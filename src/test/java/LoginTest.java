@@ -9,11 +9,11 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 @Listeners (NGListener.class)
 public class LoginTest extends TestBase {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(isLogged()) logout();
     }
-    @Test
+    @Test(groups = {"positive"})
     public void loginPositiveTest() {
         logger.info("Login Positive Test starts with \"lenny_ch@mail.com\" & \"123Ttt45$\" ");
         // open login form
@@ -25,7 +25,7 @@ public class LoginTest extends TestBase {
         // assert
         Assert.assertTrue(isLoggedSuccess());
     }
-        @Test
+        @Test(groups = {"positive","smoke"})
         public void loginPositiveTestModel() {
             User user = new User() // создаем объект класса User и используем модифицированные сеттеры
                 .withEmail("lenny_ch@mail.com")
@@ -36,7 +36,7 @@ public class LoginTest extends TestBase {
             Assert.assertTrue(isLoggedSuccess());
 
     }
-    @Test
+    @Test(groups = {"positive","smoke"})
     public void loginPositiveTestProps() {
         openLoginForm();
         fillLoginForm(getEmail(), getPassword());

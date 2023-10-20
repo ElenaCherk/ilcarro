@@ -26,10 +26,11 @@ test {
     useTestNG()
 }
 
-task myTest(type: Test){
+task myTest(type: Test) {
     useTestNG() {
+
         def groups = System.getProperty('groups')
-        if(groups!=null){
+        if (groups != null) {
             includeGroups groups
         }
         def suite = System.getProperty('suite', '')
@@ -43,10 +44,10 @@ task myTest(type: Test){
             suites 'src/test/resources/testng.xml'
         }
     }
-    if(project.hasProperty('browser')){
+    if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
     }
-    if(project.hasProperty('target')){
+    if (project.hasProperty('target')) {
         systemProperty 'target', "${target}"
     }
-} // нужно создать xml файлы
+}

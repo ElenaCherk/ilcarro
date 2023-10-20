@@ -83,18 +83,24 @@ public interface HelperUser extends HelperBase{
 
     default boolean isLogged(){
         return isElementPresent(
-                By.xpath("//*[.=' Logout ']"));
+                By.xpath("//a[.=' Logout ']"));
     }
     default void logout(){ 
-            click(By.xpath("//*[.=' Logout ']"));// 
+            click(By.xpath("//a[.=' Logout ']"));//
         }
 
-    default void login(User user){
-       openLoginForm();
-       fillLoginForm(user);
-       submitLogin();
-       clickOkButton();
-    }
+//    default void login(User user){
+//       openLoginForm();
+//       fillLoginForm(user);
+//       submitLogin();
+//       clickOkButton();
+//    }
+default void login(String email, String password){
+    openLoginForm();
+    fillLoginForm(getEmail(),getPassword());
+    submitLogin();
+    clickOkButton();
+}
     default void clickOkButton(){
             click(By.xpath("//button[@type='button']"));
         }

@@ -31,12 +31,11 @@ public interface ApplicationManager{
 
         String link = properties.getProperty("web.baseURL");
         wd.register(new WDListener());
+    //    wd.navigate().to("https://ilcarro.web.app/search");
         wd.navigate().to(link);
         logger.info("Navigated to the link --->" +link);
         wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-
         //---------------------------------------------------------------------------------------------------------
-
     }
     default void tearDown(){
         logger.info("Test completed");

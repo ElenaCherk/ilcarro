@@ -4,12 +4,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         refresh();
         if(isLogged()) logout();
     }
-    @Test
+    @Test(groups = {"positive"})
     public void registrationPositive(){
         int i = (int)(System.currentTimeMillis()/1000%3600);
         User user = new User(
@@ -23,7 +23,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(isRegisteredSuccess());
     }
 
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeNameBlank(){
         int i = (int)(System.currentTimeMillis()/1000%3600);
         User user = new User(
@@ -37,7 +37,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(isRegistrationWithNameBlank());
     }
 
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeLastNameBlank(){
         int i = (int)(System.currentTimeMillis()/1000%3600);
         User user = new User(
@@ -50,7 +50,7 @@ public class RegistrationTests extends TestBase {
         fillRegistrationForm(user);
         Assert.assertTrue(isRegistrationWithLastNameBlank());
     }
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeWrongEmail(){
         int i = (int)(System.currentTimeMillis()/1000%3600);
         User user = new User(
@@ -64,7 +64,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(isRegistrationWithWrongEmail());
     }
 
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeWrongPassword(){
         int i = (int)(System.currentTimeMillis()/1000%3600);
         User user = new User(
